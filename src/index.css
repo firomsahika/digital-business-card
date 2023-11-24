@@ -1,13 +1,112 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,600;1,200&family=Poppins:ital,wght@0,500;0,700;1,700&display=swap');
+
+body{
+  background-color: #21222A;
+  text-align: center;
+  font-family: "Poppins";
+  height: 10vh;
+  webkit: scrollbar 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container{
+  margin: auto;
+  width: 420px;
+  height: fit-content;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  background-color:  #1a1a1f;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.9);
+  border-radius: 10px;
+  overflow: hidden;
+  font-family: "Poppins";
+  
 }
+.info img{
+  width: 420px;
+  height: 400px;
+  object-fit: cover;
+  margin-bottom: 0;
+  
+}
+.info h2{
+  margin-bottom: 0;
+  margin-top: 10px;
+  font-size: 2rem;
+  color: rgb(40, 163, 240) ;
+}
+.info p{
+  color: rgb(183, 183, 183);
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.info button{
+  margin: 5px 20px;
+  padding: 12px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  width: 160px;
+  text-align: center;
+  border: none;
+  font-family: "Poppins";
+  
+}
+.linkedin-btn{
+  background-color: rgb(40, 163, 240);
+  color: white;
+}
+.container .about h3{
+   text-align: left;
+   padding:0  35px;
+   margin-bottom: 0;
+   color: rgb(40, 163, 240) ;
+  
+}
+.container .about p{
+  margin-top: 4px;
+  text-align:left;
+  padding: 0 35px;
+  color: rgb(183, 183, 183);
+  font-size:16px;
+  line-height: 20px;
+}
+.container .interest h3{
+  text-align: left;
+   padding:0  35px;
+   margin-top:0;
+   margin-bottom: 0;
+   color: rgb(40, 163, 240) ;
+}
+.container .interest p{
+  margin-top: 0;
+  text-align:left;
+  padding: 0 35px;
+  font-size:16px;
+  line-height: 20px;
+  color: rgb(156, 156, 156);
+}
+.email-img, .linkedin-img{
+  max-width: 20px;
+  max-height: 15px;
+  align-items: center;
+  margin-right: 10px;
+  /* margin-top: 10px; */
+}
+
+.footer{
+  margin: 4px 10px;
+ background-color:rgb(40, 163, 240);
+ color: white;
+ border-radius: 10px;
+ align-items: center;
+ 
+}
+.footer img{
+  width: 50px;
+  /* margin-right: 20px; */
+  padding: 3px 15px;
+  color: white;
+}
+
